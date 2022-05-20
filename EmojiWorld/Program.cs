@@ -13,6 +13,8 @@ for (int i = 0; i < 10; i++, i+=2)
     Action<string> test = Console.WriteLine;
     test("This is going to be cool");
 }
+// note: in the ascii table the right most  bits of a number represent the numer itself. same for letters
+// use that? MIght end in some nice bitwise operators
 
 // It's possible to define multiple variables, however they may not be a different type
 for (int a = 0, b; a < 10; a++) ;
