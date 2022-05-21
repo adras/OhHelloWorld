@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 using System.Threading.Tasks;
+
+#pragma warning disable 414, CS3021,CS8619
+
 
 class HelloWorld
 {

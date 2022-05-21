@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace EmojiWorld
 {
+    // , CS0219, CS162
+    #pragma warning disable 404, CS0219, CS162
     internal class App
     {
         public void Run()
