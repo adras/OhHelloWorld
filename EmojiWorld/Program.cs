@@ -1,10 +1,13 @@
-﻿string output = "💀☠🌞🐼😁🗿😍☝🥶🇬🥳😎🚺✌⬅💦💪💖©💫💓🚯💣👽🤢😄👩🎯‍🏭🎁😬🧘‍♀️🤪🐨😚😇☠💀";
+﻿
+
+string output = "💀☠🌞🐼😁🗿😍☝🥶🇬🥳😎🚺✌⬅💦💪💖©💫💓🚯💣👽🤢😄👩🎯‍🏭🎁😬🧘‍♀️🤪🐨😚😇☠💀";
 
 // Just debug
 for (int i = 0; i < output.Length; i++)
 {
     Console.WriteLine($"{i},{(int)output[i]}");
 }
+
 
 // Well, that above is not correct
 // 
@@ -145,6 +148,13 @@ for (int trick = 1; trick < 60000; trick++)
 // But let's skip that for later, that's just an addition at the end
 // Target: 72 H, 101 E, 108 L, 108 L , 111 O, 32  , 87 W, 111 O, 114 R, 108 L, 100 D and add a 😉 at the end.
 
+
+// Man ... unicode already sucks, because each char is actully two numbers
+// We need a helper function for this, let's design a delegate
+// 
+// gotta call this one: BitConverter.ToInt32(bytes)
+
+// Well, actually we could write a whole fucking piece of animation voodoo. Let's move over to App.cs
 
 Console.WriteLine();
 // This is so awesome, we even get two numbers.
